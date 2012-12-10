@@ -45,3 +45,24 @@ echo 2 | ./configure.sh
 %{_datadir}/pixmaps/*
 %{_mandir}/*/%{name}.*
 
+
+
+%changelog
+* Sat Mar 03 2012 Andrey Bondrov <abondrov@mandriva.org> 1.6.2-1mdv2011.0
++ Revision: 781935
+- New version 1.6.2
+
+* Thu Aug 25 2011 Andrey Bondrov <abondrov@mandriva.org> 1.5.0-2
++ Revision: 697036
+- imported package instead
+
+
+* Thu Aug 25 2011 Andrey Bondrov <bondrov@math.dvgu.ru> 1.5.0-2mdv2011.0
+- Little spec clean up
+- Update BuildRequires
+- Change group
+- Fix .desktop file (patch0)
+
+* Wed Aug 24 2011 Anton Chernyshov <anton.chernyshov@rosalab.ru> 1.5.0-1mdv2011.0
+- initial build for Mandriva
+
