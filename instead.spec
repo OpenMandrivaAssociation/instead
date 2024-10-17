@@ -4,7 +4,7 @@ Release:	2
 Summary:	Simply text adventures/visual novels engine and game
 License:	GPLv2
 Group:		Games/Adventure
-URL:		http://instead.googlecode.com
+URL:		https://instead.googlecode.com
 Source0:	http://instead.googlecode.com/files/%{name}_%{version}.tar.gz
 Patch0:		instead-desktop.patch
 BuildRequires:	pkgconfig(gtk+-2.0)
