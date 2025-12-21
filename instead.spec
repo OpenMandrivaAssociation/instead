@@ -7,6 +7,7 @@ Group:		Games/Adventure
 URL:		https://instead.googlecode.com
 Source0:	http://instead.googlecode.com/files/%{name}_%{version}.tar.gz
 Patch0:		instead-desktop.patch
+BuildRequires:	make
 BuildRequires:	pkgconfig(gtk+-2.0)
 BuildRequires:	pkgconfig(lua)
 BuildRequires:	pkgconfig(sdl)
